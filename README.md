@@ -16,6 +16,9 @@
     * Dynamic menu bar icon indicating overall connection activity.   
 * **Persistent Configurations:** Your host configurations are saved and loaded across app launches using `UserDefaults`.
 
+## TODO 
+Editing profiles does not load profile to edit. 
+Sometimes Prefrences does not show up. 
 
 ## License
 * **GPLv3 Licensed:** Open source and free to use, modify, and distribute under the GNU General Public License v3.0.
