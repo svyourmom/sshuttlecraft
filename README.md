@@ -13,18 +13,23 @@
         * Advanced options: Excluded Subnets (`-x`), Custom SSH Command (`--ssh-cmd`)
 * **Status Indication:**
     * Visual feedback in the menu for connection status (Disconnected, Connecting, Connected, Error).
-    * Dynamic menu bar icon indicating overall connection activity.
-    
+    * Dynamic menu bar icon indicating overall connection activity.   
 * **Persistent Configurations:** Your host configurations are saved and loaded across app launches using `UserDefaults`.
-* **GPLv3 Licensed:** Open source and free to use, modify, and distribute under the GNU General Public License v3.0.
+
+
 ## License
+* **GPLv3 Licensed:** Open source and free to use, modify, and distribute under the GNU General Public License v3.0.
 This project is licensed under the GNU General Public License v3.0. A copy of the license should be included with the source code (e.g., in a `LICENSE` file).
+
+
 ## Requirements
 * A modern version of macOS.
 * **`sshuttle` must be installed on your system.** Shuttlecraft currently expects `sshuttle` to be located at `/opt/homebrew/bin/sshuttle`. The easiest way to install it there is via [Homebrew](https://brew.sh/):
     ```bash
     brew install sshuttle
     ```
+
+
 ## Installation 
 1.  **Install `sshuttle`:** If you haven't already, install `sshuttle` using Homebrew:
     ```bash
@@ -44,10 +49,14 @@ This project is licensed under the GNU General Public License v3.0. A copy of th
     * When you activate a connection for the first time using Shuttlecraft, `sshuttle` (which Shuttlecraft launches in the background) needs administrator privileges to modify network settings.
     * You will likely see a standard macOS password prompt asking for your administrator password. This is for `sudo` being used by `sshuttle`.
     * You will need to enter your macOS user password for `sshuttle` to function. This may occur for each new `sshuttle` session unless you have configured passwordless `sudo` for `sshuttle` yourself.
+
+
 ## Current Status & Limitations
 * The path to the `sshuttle` executable is currently hardcoded to `/opt/homebrew/bin/sshuttle`.
 * This application is currently under development. While core features are functional, further refinements and robust error handling are ongoing.
 * (Optional: You can mention known minor UI bugs here if you wish, e.g., "The 'Advanced Options' label in the add/edit sheet may shift slightly when expanded/collapsed.")
+
+
 ## Acknowledgements
 * This application relies on Shuttle, Major thanks to the creators. https://github.com/sshuttle/sshuttle/graphs/contributors
 * AI assistance (e.g., for boilerplate code, debugging, and suggestions) was provided by Google's Gemini.
