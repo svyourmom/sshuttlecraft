@@ -32,7 +32,7 @@ This project is licensed under the GNU General Public License v3.0. A copy of th
     ```
     Ensure it is available at `/opt/homebrew/bin/sshuttle`.
 2.  **Download Shuttlecraft:**
-    * Download the latest `Shuttlecraft.app` release from the [GitHub Releases page]([Link to your GitHub Releases page when available]).
+    * Download the latest `Shuttlecraft.app` release from the [GitHub Releases page] https://github.com/svyourmom/sshuttlecraft/releases
 3.  **Install the App:**
     * Unzip the downloaded file (if it's a `.zip`).
     * Drag `Shuttlecraft.app` to your `/Applications` folder.
