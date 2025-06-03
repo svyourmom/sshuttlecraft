@@ -16,10 +16,6 @@
     * Dynamic menu bar icon indicating overall connection activity.   
 * **Persistent Configurations:** Your host configurations are saved and loaded across app launches using `UserDefaults`.
 
-## TODO 
-Editing profiles does not load profile to edit. 
-Sometimes Prefrences does not show up. 
-
 ## License
 * **GPLv3 Licensed:** Open source and free to use, modify, and distribute under the GNU General Public License v3.0.
 This project is licensed under the GNU General Public License v3.0. A copy of the license should be included with the source code (e.g., in a `LICENSE` file).
@@ -57,8 +53,7 @@ This project is licensed under the GNU General Public License v3.0. A copy of th
 ## Current Status & Limitations
 * The path to the `sshuttle` executable is currently hardcoded to `/opt/homebrew/bin/sshuttle`.
 * This application is currently under development. While core features are functional, further refinements and robust error handling are ongoing.
-* (Optional: You can mention known minor UI bugs here if you wish, e.g., "The 'Advanced Options' label in the add/edit sheet may shift slightly when expanded/collapsed.")
-
+* Editing profiles does not load profile to edit. 
 
 ## Acknowledgements
 * This application relies on Shuttle, Major thanks to the creators. https://github.com/sshuttle/sshuttle/graphs/contributors
